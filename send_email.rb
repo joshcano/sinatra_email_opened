@@ -10,7 +10,7 @@ gmail.deliver do
  subject "final-test" 
   html_part do 
    content_type 'text/html; charset=UTF-8'
-   body '<h1>I just got your IP.</h1><br><img src="">' # needs the path to the image on your website. 
+   body '<h1>I just got your IP.</h1><br><img src="key.png">' 
   end
 end  
 
